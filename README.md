@@ -1,4 +1,4 @@
-# PSP_data_analysis_tool
+# CDAWeb analysis tool Parker Solar Probe data
 
 Basic analysis tool for Parker Solar Probe CDAWeb data. Please read PSPanalysistool.pdf for usage and data advice.
 
