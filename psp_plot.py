@@ -1,3 +1,5 @@
+#Preference: 4 letter tabs
+
 import pyspedas
 from hyperlink import URL
 import datetime
