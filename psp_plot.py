@@ -1,4 +1,4 @@
-#Preference: 4 letter tabs
+#Tab size preference = 4
 
 import pyspedas
 from hyperlink import URL
