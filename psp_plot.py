@@ -343,7 +343,7 @@ plt.rcParams['font.family'] = font #Plot font
 plt.rcParams['mathtext.fontset'] = 'stix' #Math fontset
 
 if plots_count == 1: #plt.subplots() does not allow subscripting when plotting only one plot
-	fig, ax = plt.subplots(nrows = 2, sharex=False, constrained_layout=True)#, gridspec_kw={'hspace':hspace})
+	fig, ax = plt.subplots(nrows = 2, sharex=False, constrained_layout=True, gridspec_kw={'hspace':hspace})
 	ax[1].axis('off')
 else:
 	fig, ax = plt.subplots(nrows = plots_count, sharex=True, constrained_layout=True, gridspec_kw={'hspace':hspace})
