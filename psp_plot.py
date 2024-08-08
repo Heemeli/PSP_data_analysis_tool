@@ -55,27 +55,27 @@ C			= False
 N			= False
 O			= False
 Ne			= True
-Na			= False #EPI-HI only
+Na			= False #EPI-Hi only
 Mg			= False
 Al			= False
 Si			= False
-S			= False #EPI-HI only
-Ar			= False #EPI-HI only
-Ca			= False #EPI-HI only
-Cr			= False #EPI-HI only
+S			= False #EPI-Hi only
+Ar			= False #EPI-Hi only
+Ca			= False #EPI-Hi only
+Cr			= False #EPI-Hi only
 Fe			= False
-Ni			= False #EPI-HI only
+Ni			= False #EPI-Hi only
 
 #Options
 NORM_BRTN	= False #If true, RTN components of B will be normalized to au values (B*au^2)
-EPIHI_ENC	= False #(EPI-HI) If True, 1 minute encounter data will be downloaded instead of 1 hour cruise data 
+EPIHI_ENC	= False #(EPI-Hi) If True, 1 minute encounter data will be downloaded instead of 1 hour cruise data 
 SPI_OPT		= False #Choose between SPAN-I and SPC for plasma data. True = SPI, False = SPC.
 
 #Plot cosmetic options
 hspace			= 0.0 #Vertical space between subplots. Plots cannot touch as long as 'constrained_layout' is opted 
 labelsize		= 15 #Plot label sizes
 ticklabelsize 	= 10 #Plot tick label sizes
-font			= 'Times New Roman' #Plot font style
+font			= 'Times New Roman' #Plot font
 
 #User input
 print('\nPlease ensure data-availability at', url, 'before plotting.')
